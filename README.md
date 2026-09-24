@@ -1,5 +1,3 @@
-
-
 <h1 align="center">Hi 👋, I'm Ankit Dhandharia</h1>
 <h3 align="center">Data Engineer · AI/ML Engineer · Software Engineer · Data Scientist</h3>
 
@@ -8,12 +6,11 @@
 </p>
 
 <p align="center">
+  <a href="https://ankitdhandharia.com"><img src="https://img.shields.io/badge/Portfolio-378ADD?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://linkedin.com/in/ankit-dhandharia/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:adhandha@stevens.edu"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/Ankit455"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:ankitdhandharia21@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/AWS_Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/MSCS_@_Stevens-0045A5?style=for-the-badge" />
-  <img src="https://komarev.com/ghpvc/?username=Ankit455&label=Profile+Views&color=378ADD&style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=ankitdhandharia&label=Profile+Views&color=378ADD&style=for-the-badge" />
 </p>
 
 ---
@@ -22,11 +19,11 @@
 
 AWS Certified Data Engineer with **1.5+ years of production experience** building scalable pipelines, streaming architectures, and ML-ready data systems. I bridge the gap between raw data and real decisions — whether that's a Medallion Architecture warehouse in Snowflake, a RAG pipeline powered by LangChain, or a low-latency FastAPI service at scale.
 
-- 🎓 MSCS @ Stevens Institute of Technology, Hoboken NJ — GPA: **3.709 / 4.0** (Exp. May 2026)
+- 🎓 **M.S. Computer Science** @ Stevens Institute of Technology, Hoboken NJ — GPA **3.709 / 4.0** (2024–2026)
 - ☁️ **AWS Certified Data Engineer – Associate** (Mar 2026)
-- 📍 Based in Union City, NJ | Open to full-time roles in Data / AI / Software Engineering
+- 📍 Based in North Bergen, NJ | Open to full-time roles in Data / AI / Software Engineering
 - ⚡ Reduced pipeline latency by **35%**, cut compute costs by **40%**, processed **500k+ records/day**
-- 🌐 **[View my interactive portfolio →](https://ankit455.github.io)**
+- 🌐 **[View my portfolio → ankitdhandharia.com](https://ankitdhandharia.com)**
 
 ---
 
@@ -65,7 +62,16 @@ AWS Certified Data Engineer with **1.5+ years of production experience** buildin
 
 ---
 
-## 📊 Impact at a Glance
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ankitdhandharia&show_icons=true&count_private=true&hide_border=true&theme=react&bg_color=0d1117&title_color=378ADD&icon_color=378ADD" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ankitdhandharia&layout=compact&hide_border=true&theme=react&bg_color=0d1117&title_color=378ADD&langs_count=8" />
+</p>
+
+---
+
+## 📈 Impact at a Glance
 
 | Metric | Result |
 |---|---|
@@ -84,27 +90,25 @@ AWS Certified Data Engineer with **1.5+ years of production experience** buildin
 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░]  Streaming pipeline with Kafka + Spark + dbt
 [▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░]  RAG system with local LLMs and ChromaDB
 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░]  AWS Certified Solutions Architect prep
-[▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░]  MSCS coursework @ Stevens (GPA 3.709)
 ```
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔁 End-to-End Streaming Data Pipeline
-`AWS S3` `Kafka` `Spark` `Snowflake` `dbt Core` `Airflow` `Docker` `GitHub Actions`
+### 🏔 [End-to-End Data Pipeline — dbt · Snowflake · AWS](https://github.com/ankitdhandharia/AWS_DBT_Snowflake)
+`AWS S3` `Snowflake` `dbt Core` `Jinja` `SCD Type 2`
 
-- Medallion Architecture (Bronze/Silver/Gold) with Kafka + AWS Kinesis for real-time ingestion
-- Metadata-driven Gold layer with dbt Jinja macros; SCD Type 2 snapshots for point-in-time accuracy
-- Prometheus monitoring + dbt freshness checks; **40% compute cost reduction** via Incremental Materialization
-- Containerized with Docker; automated deployments via GitHub Actions CI/CD
+- Medallion Architecture (Bronze → Silver → Gold) with incremental loading on an Airbnb dataset
+- Metadata-driven Gold layer with custom dbt Jinja macros; SCD Type 2 snapshots for point-in-time accuracy
+- Data-quality tests + freshness checks; **40% compute cost reduction** via Incremental Materialization
 
-### 🤖 Scalable RAG Pipeline for Document Analysis
-`Python` `FastAPI` `LangChain` `ChromaDB` `HuggingFace` `SQLite`
+### 🤖 [Scalable RAG Pipeline for Document Analysis](https://github.com/ankitdhandharia/RAG_Project)
+`Python` `LangChain` `ChromaDB` `HuggingFace` `OpenRouter`
 
 - Zero-cost RAG backend using local HuggingFace embeddings (384-dim) — no cloud API dependency
-- Persistent ChromaDB + SQLite vector store; **sub-second retrieval** over 400+ page documents
-- Full OOP-driven modular design with REST API endpoints via FastAPI for production inference
+- Persistent ChromaDB vector store; **sub-second retrieval** over 400+ page documents
+- Progressive design from plain-text QA to PDF-based QA with persistent vector stores
 
 ---
 
@@ -121,18 +125,28 @@ AWS Certified Data Engineer with **1.5+ years of production experience** buildin
 
 ---
 
+## 🎓 Education
+
+**M.S. Computer Science** · Stevens Institute of Technology, Hoboken NJ · Sep 2024 – May 2026
+GPA 3.709 / 4.0
+
+**B.S. Information Technology (Honors)** · Somaiya Vidyavihar University, Mumbai · Jul 2020 – Apr 2023
+
+---
+
 ## 🏅 Certifications
 
-- 🏆 **AWS Certified Data Engineer – Associate** — Amazon Web Services, April 2026
-- 🏆 **AWS Academy Data Engineering** — Amazon Web Services, April 2026
+- 🏆 **AWS Certified Data Engineer – Associate** — Amazon Web Services, Mar 2026 · [Verify »](https://cp.certmetrics.com/amazon/en/public/verify/credential/65361e9ef7814917a8444550bbac14dc)
+- 🎖 **AWS Academy Data Engineering** — Amazon Web Services
 
 ---
 
 ## 📬 Get In Touch
 
-- 📧 adhandha@stevens.edu
+- 🌐 [ankitdhandharia.com](https://ankitdhandharia.com)
+- 📧 ankitdhandharia21@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/ankit-dhandharia/)
-- 📍 Union City, NJ (open to remote & hybrid)
+- 📍 North Bergen, NJ (open to remote & hybrid)
 
 ---
 
