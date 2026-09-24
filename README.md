@@ -78,21 +78,22 @@
 <!-- ====================== GITHUB STATS (VISUAL) ====================== -->
 ## 📊 GitHub Analytics
 
+<!-- Auto-refreshed every 6h by .github/workflows/metrics.yml (private-inclusive) -->
+
 <p align="center">
-  <img width="80%" src="https://streak-stats.demolab.com?user=ankitdhandharia&theme=github-dark-blue&hide_border=true&background=0D1117&ring=378ADD&fire=378ADD&currStreakLabel=378ADD" />
+  <img width="88%" src="./github-metrics.svg" alt="GitHub metrics" />
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ankitdhandharia&theme=github_dark" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ankitdhandharia&theme=github_dark" />
+  <img width="88%" src="./github-metrics.isocalendar.svg" alt="Isometric commit calendar" />
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ankitdhandharia&theme=github_dark&utcOffset=-5" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ankitdhandharia&theme=github_dark" />
+  <img width="49%" src="./github-metrics.habits.svg" alt="Coding habits & achievements" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=ankitdhandharia&theme=github-dark-blue&hide_border=true&background=0D1117&ring=378ADD&fire=378ADD&currStreakLabel=378ADD" alt="Contribution streak" />
 </p>
 
-<p align="center"><sub>🔒 Contribution totals include private repositories · language cards reflect public repositories only</sub></p>
+<p align="center"><sub>🔒 Panels auto-update every 6 hours via GitHub Actions and include private-repository contributions</sub></p>
 
 ---
 
