@@ -12,7 +12,7 @@
   <a href="https://ankitdhandharia.com"><img src="https://img.shields.io/badge/Portfolio-378ADD?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>&nbsp;
   <a href="https://linkedin.com/in/ankit-dhandharia/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:ankitdhandharia21@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
-  <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/65361e9ef7814917a8444550bbac14dc"><img src="https://img.shields.io/badge/AWS_Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified" /></a>&nbsp;
+  <a href="https://www.credly.com/badges/2d86b01c-3459-4bb4-ad39-4cc492678060"><img src="https://img.shields.io/badge/AWS_Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified" /></a>&nbsp;
   <img src="https://komarev.com/ghpvc/?username=ankitdhandharia&label=Profile+Views&color=378ADD&style=for-the-badge" alt="Profile Views" />
 </p>
 
@@ -24,7 +24,7 @@
 I am a software engineer focused on **distributed systems**, **data platforms**, and **machine learning infrastructure**. I enjoy tackling problems where correctness and runtime performance matter most: eliminating multithreaded race conditions, resolving execution graph edge cases, and building high-throughput data pipelines that remain reliable under heavy loads.
 
 - 🎓 **M.S. Computer Science** @ **Stevens Institute of Technology** (Hoboken, NJ) — GPA **3.71 / 4.0**
-- ☁️ **AWS Certified Data Engineer – Associate** (Credential: `65361e9ef7814917a8444550bbac14dc`)
+- ☁️ **AWS Certified Data Engineer – Associate** ([Verify on Credly](https://www.credly.com/badges/2d86b01c-3459-4bb4-ad39-4cc492678060))
 - ⚙️ **Systems & Distributed Computing**: Concurrency safety, race-condition elimination, execution graph optimization, and low-latency communication runtimes.
 - 🌊 **Data Engineering & Lakehouses**: Production-grade Medallion architecture (Snowflake + dbt Core + S3), incremental loading, SCD Type 2 snapshots, and streaming pipelines (Kafka + Spark).
 - 🔬 **Upstream Open-Source Engineering**: Actively resolving runtime edge cases and bugs across foundational repositories including Google Protocol Buffers, Microsoft DeepSpeed, ONNX, and PyTorch Vision.
@@ -205,12 +205,12 @@ Modular Retrieval-Augmented Generation system with dense embeddings and persiste
     </td>
     <td width="50%" valign="top">
       <h3>Amazon Web Services</h3>
-      <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/65361e9ef7814917a8444550bbac14dc">
-        <img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="85" align="right" alt="AWS Certified Data Engineer" />
+      <a href="https://www.credly.com/badges/2d86b01c-3459-4bb4-ad39-4cc492678060">
+        <img src="https://images.credly.com/size/340x340/images/e5c85d7f-4e50-431e-b5af-fa9d9b0596e7/image.png" width="95" align="right" alt="AWS Certified Data Engineer – Associate" />
       </a>
       <b>AWS Certified Data Engineer – Associate</b><br/>
-      <sub>Active Credential: Mar 2026</sub><br/>
-      <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/65361e9ef7814917a8444550bbac14dc"><b>🔗 Verify Credential »</b></a>
+      <sub>Issued by Amazon Web Services Training &amp; Certification</sub><br/>
+      <a href="https://www.credly.com/badges/2d86b01c-3459-4bb4-ad39-4cc492678060"><b>🔗 Verify on Credly »</b></a>
     </td>
   </tr>
 </table>
