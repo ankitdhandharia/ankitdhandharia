@@ -23,7 +23,7 @@
 
 I am a software engineer focused on **distributed systems**, **data platforms**, and **machine learning infrastructure**. I enjoy tackling problems where correctness and runtime performance matter most: eliminating multithreaded race conditions, resolving execution graph edge cases, and building high-throughput data pipelines that remain reliable under heavy loads.
 
-- 🎓 **M.S. Computer Science** @ **Stevens Institute of Technology** (Hoboken, NJ) — GPA **3.71 / 4.0**
+- 🎓 **M.S. Computer Science** @ **Stevens Institute of Technology** (Hoboken, NJ — GPA **3.71 / 4.0** · [Digital Degree](https://www.parchment.com/lp/award/e991230d-435f-4a4f-90e8-8809f734e43a))
 - ☁️ **AWS Certified Data Engineer – Associate** ([Verify on Credly](https://www.credly.com/badges/2d86b01c-3459-4bb4-ad39-4cc492678060))
 - ⚙️ **Systems & Distributed Computing**: Concurrency safety, race-condition elimination, execution graph optimization, and low-latency communication runtimes.
 - 🌊 **Data Engineering & Lakehouses**: Production-grade Medallion architecture (Snowflake + dbt Core + S3), incremental loading, SCD Type 2 snapshots, and streaming pipelines (Kafka + Spark).
@@ -199,13 +199,17 @@ Modular Retrieval-Augmented Generation system with dense embeddings and persiste
   <tr>
     <td width="50%" align="center" valign="top">
       <br/>
-      <img src="./assets/stevens-logo.svg" height="85" alt="Stevens Institute of Technology" />
+      <a href="https://www.parchment.com/lp/award/e991230d-435f-4a4f-90e8-8809f734e43a">
+        <img src="./assets/stevens-logo.png" height="85" alt="Stevens Institute of Technology" />
+      </a>
       <br/><br/>
       <h3>Stevens Institute of Technology</h3>
       <b>M.S. in Computer Science</b><br/>
       <sub>Hoboken, NJ · Sep 2024 – May 2026</sub><br/>
       <p>GPA: <b>3.71 / 4.0</b></p>
       <sub>Distributed Systems · Machine Learning · Cloud Computing · Advanced Algorithms</sub>
+      <br/><br/>
+      <a href="https://www.parchment.com/lp/award/e991230d-435f-4a4f-90e8-8809f734e43a"><b>🎓 View Digital Degree (Parchment) »</b></a>
       <br/><br/>
     </td>
     <td width="50%" align="center" valign="top">
