@@ -1,0 +1,97 @@
+name: Generate Metrics & Contributions
+on:
+  # Refresh metrics and contributions table every 6 hours
+  schedule:
+    - cron: "0 */6 * * *"
+  # Allow manual trigger from the GitHub Actions tab
+  workflow_dispatch:
+  # Regenerate when the workflow or updater script changes
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/generate-stats.yml"
+      - ".github/scripts/update_contributions.py"
+
+permissions:
+  contents: write
+
+jobs:
+  profile-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Top Languages SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_STATS_TOKEN || secrets.METRICS_TOKEN }}
+          filename: top-langs.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_skipped: ankitdhandharia/DataZenSomaiya, ankitdhandharia/14_days_challenge, ankitdhandharia/Classification-project, ankitdhandharia/WRITIN, ankitdhandharia/CLIENT_LOYALTY_Program, ankitdhandharia/Github, ankitdhandharia/Python-beginners-tasks
+          extras_css: |
+            svg.bar { margin-bottom: 24px !important; }
+
+      - name: Generate Notable Contributions SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_STATS_TOKEN || secrets.METRICS_TOKEN }}
+          filename: notable.svg
+          base: ""
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit, pull_request
+          plugin_notable_filter: stars:>100
+          plugin_notable_indepth: no
+          plugin_notable_repositories: yes
+          extras_css: |
+            :root { color-scheme: light dark; }
+            .name, .organization.name { color: #24292f !important; }
+            .contribution.organization { border-color: #d0d7de !important; background-color: #f6f8fa !important; }
+            @media (prefers-color-scheme: dark) {
+              svg { color: #c9d1d9 !important; }
+              h2 { color: #58a6ff !important; }
+              h2 svg { fill: #58a6ff !important; }
+              .field svg { fill: #8b949e !important; }
+              .name, .organization.name { color: #f0f6fc !important; }
+              .contribution.organization {
+                border-color: #30363d !important;
+                background-color: rgba(110, 118, 129, 0.25) !important;
+                color: #f0f6fc !important;
+              }
+            }
+            @media (prefers-color-scheme: light) {
+              svg { color: #24292f !important; }
+              h2 { color: #0969da !important; }
+              h2 svg { fill: #0969da !important; }
+              .field svg { fill: #57606a !important; }
+              .name, .organization.name { color: #24292f !important; }
+              .contribution.organization {
+                border-color: #d0d7de !important;
+                background-color: #f6f8fa !important;
+                color: #24292f !important;
+              }
+            }
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_STATS_TOKEN || secrets.METRICS_TOKEN }}
+          ref: main
+
+      - name: Update Open Source Contributions Table
+        env:
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.METRICS_TOKEN }}
+        run: |
+          python3 .github/scripts/update_contributions.py
+
+      - name: Commit and Push Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md notable.svg top-langs.svg
+          if ! git diff --staged --quiet; then
+            git commit -m "docs: auto-update profile metrics and contributions [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
