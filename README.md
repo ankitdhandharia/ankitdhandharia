@@ -1,203 +1,244 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=388BFD&center=true&vCenter=true&multiline=true&width=750&height=80&lines=%3E_+Ankit+Dhandharia;Distributed+Systems+%7C+ML+Infra+%7C+Open+Source" alt="Typing SVG" />
-</h1>
-
+<!-- ====================== HEADER BANNER ====================== -->
 <p align="center">
-  <em>Building scalable distributed systems, optimizing ML runtimes, and engineering core open-source infrastructure.</em>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:378ADD,100:0045A5&height=200&section=header&text=Ankit%20Dhandharia&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Distributed%20Systems%20%C2%B7%20Data%20Platforms%20%C2%B7%20ML%20Infrastructure&descAlignY=60&descSize=18" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://ankitdhandharia.com"><img src="https://img.shields.io/badge/Portfolio-388BFD?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>&nbsp;
-  <a href="https://linkedin.com/in/ankit-dhandharia/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
-  <a href="mailto:ankitdhandharia21@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>&nbsp;
-  <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/65361e9ef7814917a8444550bbac14dc"><img src="https://img.shields.io/badge/AWS_Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified"/></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=378ADD&center=true&vCenter=true&width=680&lines=Distributed+Systems+%E2%80%A2+Data+Platforms+%E2%80%A2+ML+Infra;Building+High-Throughput+Pipelines+%7C+Kafka+%7C+Spark+%7C+dbt;Contributing+Upstream+to+Protobuf%2C+DeepSpeed%2C+ONNX%2C+Darts;AWS+Certified+Data+Engineer+%E2%80%93+Associate;MSCS+%40+Stevens+Institute+of+Technology+%F0%9F%8E%93" alt="Typing SVG" />
 </p>
 
-<br>
+<!-- ====================== SOCIAL BADGES ====================== -->
+<p align="center">
+  <a href="https://ankitdhandharia.com"><img src="https://img.shields.io/badge/Portfolio-378ADD?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>&nbsp;
+  <a href="https://linkedin.com/in/ankit-dhandharia/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:ankitdhandharia21@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
+  <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/65361e9ef7814917a8444550bbac14dc"><img src="https://img.shields.io/badge/AWS_Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified" /></a>&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=ankitdhandharia&label=Profile+Views&color=378ADD&style=for-the-badge" alt="Profile Views" />
+</p>
 
-## About Me
+<br/>
 
-I'm Ankit — an engineer driven by distributed computing, machine learning systems, and high-throughput data platforms. I care deeply about how software behaves under the hood: concurrency race conditions, memory layouts, execution graphs, and resilient architectures that stay stable at scale.
+<!-- ====================== ABOUT ====================== -->
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
 
-Much of my focus centers on diving into upstream open-source codebases (including **Google Protocol Buffers**, **Microsoft DeepSpeed**, **ONNX**, **PyTorch Vision**, and **Unit8 Darts**) to resolve runtime synchronization bugs, repair distributed communication assumptions, and optimize inference layers. When I build systems, I design for correctness, determinism, and measurable performance.
+I am a software engineer focused on **distributed systems**, **data platforms**, and **machine learning infrastructure**. I enjoy tackling problems where correctness and runtime performance matter most: eliminating multithreaded race conditions, resolving execution graph edge cases, and building high-throughput data pipelines that remain reliable under heavy loads.
 
-I'm currently completing my **M.S. in Computer Science at Stevens Institute of Technology** in Hoboken, NJ (GPA **3.71 / 4.0**). I am also an **AWS Certified Data Engineer – Associate**, which grounds my work in cloud infrastructure design, reliable streaming architectures, and cost-optimized compute workloads.
+- 🎓 **M.S. Computer Science** @ **Stevens Institute of Technology** (Hoboken, NJ) — GPA **3.71 / 4.0**
+- ☁️ **AWS Certified Data Engineer – Associate** (Credential: `65361e9ef7814917a8444550bbac14dc`)
+- ⚙️ **Systems & Distributed Computing**: Concurrency safety, race-condition elimination, execution graph optimization, and low-latency communication runtimes.
+- 🌊 **Data Engineering & Lakehouses**: Production-grade Medallion architecture (Snowflake + dbt Core + S3), incremental loading, SCD Type 2 snapshots, and streaming pipelines (Kafka + Spark).
+- 🔬 **Upstream Open-Source Engineering**: Actively resolving runtime edge cases and bugs across foundational repositories including Google Protocol Buffers, Microsoft DeepSpeed, ONNX, and PyTorch Vision.
+- 🌐 **Portfolio & Architecture Write-ups** → **[ankitdhandharia.com](https://ankitdhandharia.com)**
 
-<br>
+<br/>
 
-## Currently Building
+---
 
-| Project | Description |
-|:--------|:------------|
-| **[Medallion Data Platform](https://github.com/ankitdhandharia/AWS_DBT_Snowflake)** | Production-grade cloud warehouse implementing **Bronze → Silver → Gold** architecture on Snowflake & AWS S3 with dbt Core. Features incremental loading, SCD Type 2 point-in-time snapshots, custom Jinja macros, and automated data quality test suites that cut compute costs by 40%. |
-| **[Autonomous Event Aggregator](https://github.com/hiringfleet/HiringFleet---Tech-Professional-Events-Aggregator)** | Distributed event ingestion platform integrating 8+ external sources (Luma, Meetup, Ticketmaster, Pretalx, Devpost, Kaggle) with unified schema normalization, deduplication, click-to-recommendation feedback loops, and zero-auth data adapters. |
-| **[Deterministic LLM Gateway](https://github.com/hiringfleet/HiringFleet-Portal-Resume-Optimizer)** | High-performance LLM model routing gateway with deterministic dispatch (GPT-4o-mini & DeepSeek-V3.2), shared token/cost budgeting, and defense-in-depth security guardrails (SSRF mitigation, prompt sanitization, DoS prevention). |
-| **[Progressive Hybrid RAG Pipeline](https://github.com/ankitdhandharia/RAG_Project)** | Modular Retrieval-Augmented Generation system with dense embeddings (HuggingFace 384-dim) and ChromaDB persistent vector storage. Delivers sub-second semantic search over 400+ page documents with zero recurring embedding costs. |
-| **[Causal Inference Estimator Engine](https://github.com/kirilklein/CausalEstimate)** | Pandas-native causal inference framework (IPW, AIPW, TMLE, matching, bootstrap CIs) — contributed index-alignment fixes ensuring unbiased treatment effect estimation across unaligned Series operations. |
+<!-- ====================== UPSTREAM OPEN SOURCE ====================== -->
+## ⚡ Upstream Open-Source Contributions
 
-<br>
-
-## Open Source Contributions
+Real-time snapshot of public pull requests and upstream engineering contributions across external ecosystems, auto-updated via GitHub Actions:
 
 <p align="center">
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aankitdhandharia+repo%3Aprotocolbuffers/protobuf"><img src="https://img.shields.io/badge/Google_Protobuf-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Protobuf"/></a>&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aankitdhandharia+repo%3Adeepspeedai/DeepSpeed"><img src="https://img.shields.io/badge/Microsoft_DeepSpeed-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="DeepSpeed"/></a>&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aankitdhandharia+repo%3Aonnx/onnx"><img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX"/></a>&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aankitdhandharia+org%3Apytorch"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/></a>&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aankitdhandharia+org%3Admlc"><img src="https://img.shields.io/badge/DMLC_XGBoost-EB3941?style=for-the-badge&logo=apache&logoColor=white" alt="XGBoost"/></a>&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aankitdhandharia+org%3Aaws"><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900" alt="AWS"/></a>&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aankitdhandharia+org%3Ameta-pytorch"><img src="https://img.shields.io/badge/Meta_BoTorch-0668E1?style=for-the-badge&logo=meta&logoColor=white" alt="BoTorch"/></a>&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aankitdhandharia+org%3Aunit8co"><img src="https://img.shields.io/badge/Unit8_Darts-00A499?style=for-the-badge&logo=python&logoColor=white" alt="Darts"/></a>
+  <img src="./open-source-showcase.svg" alt="Upstream Open Source Ecosystem" width="100%" />
 </p>
 
-Landing fixes and features across ML compilers, distributed training frameworks, time-series forecasting engines, and foundational serialization runtimes.
+### 🧠 Machine Learning Runtimes & Distributed Systems
 
-<!-- START_SECTION:contributions -->
-| Repo | Stars | PR | Impact |
-|:-----|:------|:---|:-------|
-| **[Unit8 Darts](https://github.com/unit8co/darts)** | <a href="https://github.com/unit8co/darts"><img src="https://img.shields.io/github/stars/unit8co/darts?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/unit8co/darts/pull/3217"><img src="https://img.shields.io/github/pulls/detail/state/unit8co/darts/3217?style=flat-square&label=%233217" alt="#3217"/></a>&nbsp;<a href="https://github.com/unit8co/darts/pull/3210"><img src="https://img.shields.io/github/pulls/detail/state/unit8co/darts/3210?style=flat-square&label=%233210" alt="#3210"/></a> | Fixed multithreaded race condition in `_model_call` during parallel Optuna sweeps (`n_jobs>1`); documented `window` parameter in `CauchyNLLScorer`. |
-| **[tsauditor](https://github.com/imann128/tsauditor)** | <a href="https://github.com/imann128/tsauditor"><img src="https://img.shields.io/github/stars/imann128/tsauditor?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/imann128/tsauditor/pull/74"><img src="https://img.shields.io/github/pulls/detail/state/imann128/tsauditor/74?style=flat-square&label=%2374" alt="#74"/></a> | Added single-row edge case tests for missing, point, contextual, and stationarity anomaly detection. |
-| **[CausalEstimate](https://github.com/kirilklein/CausalEstimate)** | <a href="https://github.com/kirilklein/CausalEstimate"><img src="https://img.shields.io/github/stars/kirilklein/CausalEstimate?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/kirilklein/CausalEstimate/pull/148"><img src="https://img.shields.io/github/pulls/detail/state/kirilklein/CausalEstimate/148?style=flat-square&label=%23148" alt="#148"/></a> | Resolved silent NaN / incorrect treatment effect estimations in `Matching._compute_effect` caused by unaligned DataFrame index operations. |
-| **[Google Protocol Buffers](https://github.com/protocolbuffers/protobuf)** | <a href="https://github.com/protocolbuffers/protobuf"><img src="https://img.shields.io/github/stars/protocolbuffers/protobuf?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/protocolbuffers/protobuf/pull/30114"><img src="https://img.shields.io/github/pulls/detail/state/protocolbuffers/protobuf/30114?style=flat-square&label=%2330114" alt="#30114"/></a> | Included duplicate collision key in C# `MapField.Add` exception message to accelerate debugging in downstream cloud logging services. |
-| **[Microsoft DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** | <a href="https://github.com/deepspeedai/DeepSpeed"><img src="https://img.shields.io/github/stars/deepspeedai/DeepSpeed?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/deepspeedai/DeepSpeed/pull/8631"><img src="https://img.shields.io/github/pulls/detail/state/deepspeedai/DeepSpeed/8631?style=flat-square&label=%238631" alt="#8631"/></a> | Fixed AutoSP test suite expecting LLM attention layers to be auto-wrapped with `DistributedAttention`, properly matching sequence parallelism architecture. |
-| **[MonitorControl](https://github.com/MonitorControl/MonitorControl)** | <a href="https://github.com/MonitorControl/MonitorControl"><img src="https://img.shields.io/github/stars/MonitorControl/MonitorControl?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/MonitorControl/MonitorControl/pull/1913"><img src="https://img.shields.io/github/pulls/detail/state/MonitorControl/MonitorControl/1913?style=flat-square&label=%231913" alt="#1913"/></a> | Added troubleshooting documentation for macOS dim screen captures and slider brightness jump behavior. |
-| **[DMLC XGBoost](https://github.com/dmlc/xgboost)** | <a href="https://github.com/dmlc/xgboost"><img src="https://img.shields.io/github/stars/dmlc/xgboost?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/dmlc/xgboost/pull/12613"><img src="https://img.shields.io/github/pulls/detail/state/dmlc/xgboost/12613?style=flat-square&label=%2312613" alt="#12613"/></a> | Added strict Python type annotations to config and tree regularization test suites and enabled mypy CI enforcement. |
-| **[ONNX Reference Runtime](https://github.com/onnx/onnx)** | <a href="https://github.com/onnx/onnx"><img src="https://img.shields.io/github/stars/onnx/onnx?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/onnx/onnx/pull/8599"><img src="https://img.shields.io/github/pulls/detail/state/onnx/onnx/8599?style=flat-square&label=%238599" alt="#8599"/></a> | Handled legacy Resize inputs in reference implementation and preserved exact nearest-neighbor values across opset 10/11 transitions. |
-| **[PyTorch Vision](https://github.com/pytorch/vision)** | <a href="https://github.com/pytorch/vision"><img src="https://img.shields.io/github/stars/pytorch/vision?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/pytorch/vision/pull/9677"><img src="https://img.shields.io/github/pulls/detail/state/pytorch/vision/9677?style=flat-square&label=%239677" alt="#9677"/></a> | Fixed reference script `evaluate()` crashing with uninitialized default process group when run outside distributed environments. |
-| **[AWS GluonTS](https://github.com/awslabs/gluonts)** | <a href="https://github.com/awslabs/gluonts"><img src="https://img.shields.io/github/stars/awslabs/gluonts?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/awslabs/gluonts/pull/3351"><img src="https://img.shields.io/github/pulls/detail/state/awslabs/gluonts/3351?style=flat-square&label=%233351" alt="#3351"/></a> | Prevented unintended CUDA context initialization by keeping PyTorch predictors strictly on CPU when training with `accelerator="cpu"`. |
-| **[Meta BoTorch](https://github.com/meta-pytorch/botorch)** | <a href="https://github.com/meta-pytorch/botorch"><img src="https://img.shields.io/github/stars/meta-pytorch/botorch?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/meta-pytorch/botorch/pull/3411"><img src="https://img.shields.io/github/pulls/detail/state/meta-pytorch/botorch/3411?style=flat-square&label=%233411" alt="#3411"/></a> | Introduced pluggable `cat_kernel_factory` in `MixedSingleTaskGP` to support domain-specific categorical kernels alongside continuous dimensions. |
-| **[AWS SageMaker SDK](https://github.com/aws/sagemaker-python-sdk)** | <a href="https://github.com/aws/sagemaker-python-sdk"><img src="https://img.shields.io/github/stars/aws/sagemaker-python-sdk?style=flat-square&label=%E2%98%85" alt="Stars"/></a> | <a href="https://github.com/aws/sagemaker-python-sdk/pull/6430"><img src="https://img.shields.io/github/pulls/detail/state/aws/sagemaker-python-sdk/6430?style=flat-square&label=%236430" alt="#6430"/></a> | Fixed Local Container mode failure when an S3 input channel points to a single file object instead of a prefix directory. |
-<!-- END_SECTION:contributions -->
+- **[ONNX Reference Runtime](https://github.com/onnx/onnx)** `★ 21.6k` · [![PR #8599](https://img.shields.io/github/pulls/detail/state/onnx/onnx/8599?style=flat-square&label=%238599)](https://github.com/onnx/onnx/pull/8599)
+  > Handled legacy Resize inputs in reference implementation and preserved exact nearest-neighbor sub-pixel coordinate roundings across opset 10/11 transitions.
 
-<p align="center">
-  <img src="notable.svg" alt="Notable Open Source Contributions" />
-</p>
+- **[Microsoft DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** `★ 43.2k` · [![PR #8631](https://img.shields.io/github/pulls/detail/state/deepspeedai/DeepSpeed/8631?style=flat-square&label=%238631)](https://github.com/deepspeedai/DeepSpeed/pull/8631)
+  > Fixed AutoSP test suite expecting LLM decoder attention layers to be auto-wrapped with `DistributedAttention`, aligning tests with the intentional sequence parallelism operator architecture.
+
+- **[PyTorch Vision](https://github.com/pytorch/vision)** `★ 18.0k` · [![PR #9677](https://img.shields.io/github/pulls/detail/state/pytorch/vision/9677?style=flat-square&label=%239677)](https://github.com/pytorch/vision/pull/9677)
+  > Guarded reference `evaluate()` sample-count checks against uninitialized default process groups when benchmarks run in standalone non-distributed mode.
+
+- **[DMLC XGBoost](https://github.com/dmlc/xgboost)** `★ 28.9k` · [![PR #12613](https://img.shields.io/github/pulls/detail/state/dmlc/xgboost/12613?style=flat-square&label=%2312613)](https://github.com/dmlc/xgboost/pull/12613)
+  > Added strict Python type annotations to config and tree regularization test suites and enabled mypy CI verification.
+
+### 📊 Time-Series, Bayesian Optimization & Statistical Engines
+
+- **[Unit8 Darts](https://github.com/unit8co/darts)** `★ 9.6k` · [![Merged #3217](https://img.shields.io/badge/%233217-Merged-2ea44f?style=flat-square)](https://github.com/unit8co/darts/pull/3217) [![Merged #3210](https://img.shields.io/badge/%233210-Merged-2ea44f?style=flat-square)](https://github.com/unit8co/darts/pull/3210)
+  > **Merged**: Resolved multithreaded race condition where `ModelMeta.__call__` stored creation arguments in class-level attributes, preventing collisions during parallel Optuna sweeps (`n_jobs>1`). Also documented `window` parameter in `CauchyNLLScorer`.
+
+- **[Meta BoTorch](https://github.com/meta-pytorch/botorch)** `★ 3.6k` · [![PR #3411](https://img.shields.io/github/pulls/detail/state/meta-pytorch/botorch/3411?style=flat-square&label=%233411)](https://github.com/meta-pytorch/botorch/pull/3411)
+  > Introduced pluggable `cat_kernel_factory` in `MixedSingleTaskGP` to support domain-specific categorical kernels alongside continuous dimensions.
+
+- **[AWS GluonTS](https://github.com/awslabs/gluonts)** `★ 5.2k` · [![PR #3351](https://img.shields.io/github/pulls/detail/state/awslabs/gluonts/3351?style=flat-square&label=%233351)](https://github.com/awslabs/gluonts/pull/3351)
+  > Prevented unintended CUDA context initialization by enforcing CPU predictor placement when training with `accelerator="cpu"`.
+
+- **[CausalEstimate](https://github.com/kirilklein/CausalEstimate)** · [![Merged #148](https://img.shields.io/badge/%23148-Merged-2ea44f?style=flat-square)](https://github.com/kirilklein/CausalEstimate/pull/148) & **[tsauditor](https://github.com/imann128/tsauditor)** · [![Merged #74](https://img.shields.io/badge/%2374-Merged-2ea44f?style=flat-square)](https://github.com/imann128/tsauditor/pull/74)
+  > **Merged**: Fixed unaligned DataFrame index in `Matching._compute_effect` that caused silent NaN calculations; added single-row anomaly edge-case test suites.
+
+### 🔌 Core Protocols & Cloud Tooling
+
+- **[Google Protocol Buffers](https://github.com/protocolbuffers/protobuf)** `★ 72.1k` · [![PR #30114](https://img.shields.io/github/pulls/detail/state/protocolbuffers/protobuf/30114?style=flat-square&label=%2330114)](https://github.com/protocolbuffers/protobuf/pull/30114)
+  > Included duplicate collision key in C# `MapField.Add` exception message to accelerate debugging in downstream cloud logging services.
+
+- **[AWS SageMaker Python SDK](https://github.com/aws/sagemaker-python-sdk)** `★ 2.3k` · [![PR #6430](https://img.shields.io/github/pulls/detail/state/aws/sagemaker-python-sdk/6430?style=flat-square&label=%236430)](https://github.com/aws/sagemaker-python-sdk/pull/6430)
+  > Fixed Local Container mode failure when an S3 input channel points to an individual file object instead of a prefix directory.
+
+- **[MonitorControl](https://github.com/MonitorControl/MonitorControl)** `★ 34.5k` · [![PR #1913](https://img.shields.io/github/pulls/detail/state/MonitorControl/MonitorControl/1913?style=flat-square&label=%231913)](https://github.com/MonitorControl/MonitorControl/pull/1913)
+  > Documented troubleshooting resolutions for macOS dim screen capture conflicts and slider brightness jumps.
 
 <p align="center">
   <a href="https://github.com/pulls?q=is%3Apr+author%3Aankitdhandharia+-user%3Aankitdhandharia">
-    <img src="https://img.shields.io/badge/GitHub-View_All_Open_Source_PRs-238636?style=for-the-badge&logo=github&logoColor=white" alt="View All PRs" />
+    <img src="https://img.shields.io/badge/GitHub-View_All_Upstream_PRs-378ADD?style=for-the-badge&logo=github&logoColor=white" alt="View All PRs" />
   </a>
 </p>
 
-<br>
+<br/>
 
-## Tech Stack
+---
+
+<!-- ====================== FEATURED SYSTEMS ====================== -->
+## 🛠 Featured Systems & Architecture
 
 <table>
-  <tr>
-    <td><b>Languages & Systems</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
-      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-      <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
-      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>ML & Runtimes</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-      <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX"/>
-      <img src="https://img.shields.io/badge/DeepSpeed-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="DeepSpeed"/>
-      <img src="https://img.shields.io/badge/XGBoost-EB3941?style=flat-square&logo=apache&logoColor=white" alt="XGBoost"/>
-      <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
-      <img src="https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain"/>
-      <img src="https://img.shields.io/badge/Protobuf-4285F4?style=flat-square&logo=google&logoColor=white" alt="Protobuf"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Data & Streaming</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Spark"/>
-      <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka"/>
-      <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" alt="Airflow"/>
-      <img src="https://img.shields.io/badge/dbt_Core-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt"/>
-      <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake"/>
-      <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white" alt="Databricks"/>
-      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Cloud & Infra</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS"/>
-      <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP"/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-      <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
-      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏔 [Medallion Data Lakehouse](https://github.com/ankitdhandharia/AWS_DBT_Snowflake)
+**`dbt Core` `Snowflake` `AWS S3` `Jinja`**
+
+End-to-end cloud data warehouse implementing the **Bronze → Silver → Gold** architecture on an Airbnb dataset.
+- Incremental loading + **SCD Type 2** snapshots for point-in-time dimensional accuracy
+- Metadata-driven Gold layer with custom **dbt Jinja macros**
+- Automated schema validation & freshness assertions — **40% compute cost cut** via incremental materialization
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ [Autonomous Multi-Source Aggregator](https://github.com/hiringfleet/HiringFleet---Tech-Professional-Events-Aggregator)
+**`TypeScript` `Node.js` `Distributed Ingestion` `APIs`**
+
+Distributed event ingestion and normalization platform integrating 8+ external sources (Luma, Meetup, Ticketmaster, Pretalx, Devpost, Kaggle).
+- Unified schema normalization and cross-platform deduplication
+- Zero-auth data adapters for open-data event syndication
+- Click-to-recommendation feedback loop with low-latency dispatch
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡 [Deterministic LLM Model Gateway](https://github.com/hiringfleet/HiringFleet-Portal-Resume-Optimizer)
+**`FastAPI` `Python` `OpenRouter` `Security Guardrails`**
+
+Multi-tier LLM gateway with deterministic model dispatch (GPT-4o-mini & DeepSeek-V3.2) and token budgeting.
+- Shared daily cost/token caps across concurrent execution engines
+- Defense-in-depth security guardrails mitigating SSRF, prompt injection, and DoS attacks
+- Section-scoped semantic prompting for deterministic outputs
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 [Progressive Hybrid RAG Pipeline](https://github.com/ankitdhandharia/RAG_Project)
+**`LangChain` `ChromaDB` `HuggingFace` `Vector Embeddings`**
+
+Modular Retrieval-Augmented Generation system with dense embeddings and persistent vector indexing.
+- Zero cloud API dependency using local HuggingFace embeddings (384-dim)
+- Persistent **ChromaDB** vector store with sub-second retrieval across 400+ page documents
+- Clean OOP architecture ready for high-throughput inference
+
+</td>
+</tr>
 </table>
 
-<br>
+<p align="center"><a href="https://github.com/ankitdhandharia?tab=repositories">→ Browse all repositories</a></p>
 
-## Engineering Highlights
+<br/>
 
-### ⚡ Concurrency Race Condition Fix in Multithreaded Time-Series Model Calls (`unit8co/darts`)
-Identified and resolved a race condition where `ModelMeta.__call__` stored creation arguments in a shared class attribute (`cls._model_call`) and consumed it during initialization. When hyperparameter optimization sweeps were executed across threads (e.g., `optuna.study.optimize(..., n_jobs>1)`), concurrent instantiations overwrote class-level parameters, raising `AttributeError: _model_call`. Refactored the constructor lifecycle to ensure thread-isolated parameter propagation.
+---
 
-### 🌐 Distributed Attention & Sequence Parallelism Alignment (`deepspeedai/DeepSpeed`)
-Resolved AutoSP test suite incompatibilities in DeepSpeed's sequence parallelism pipeline. Audited `auto_wrap_model_for_sp()` behavior where decoder attention blocks with HuggingFace-style signatures (`hidden_states`) bypass automatic `DistributedAttention` wrapping. Aligned test assertions with architectural boundaries to ensure sequence parallelism validation reflects expected operator wrapping.
+<!-- ====================== TECH STACK ====================== -->
+## 🛠 Technical Toolkit
 
-### 📐 Legacy Resize Input Handling & Sub-Pixel Nearest Precision (`onnx/onnx`)
-Addressed reference implementation failures in ONNX `Resize` across opset transitions (opset 10 `(X, scales)` vs. opset 11+ `(X, roi, scales, sizes)`). Implemented legacy input mapping to ensure opset-10 models execute cleanly without parameter collisions while maintaining exact nearest-neighbor sub-pixel coordinate roundings.
+<div align="center">
 
-### 🛡 Distributed Process Group Fault Isolation (`pytorch/vision`)
-Fixed fatal process crashes in PyTorch Vision reference evaluation scripts. When benchmark or evaluation scripts executed in non-distributed, standalone mode, calls to sample-count verification invoked uninitialized process groups (`torch.distributed.get_rank()`). Guarded rank checks against uninitialized distributed state, ensuring graceful single-process fallback.
+**Languages & Systems**
 
-### 🏔 End-to-End Medallion Warehouse & Incremental Optimization
-Architected an end-to-end cloud data warehouse following the Medallion pattern (Bronze → Silver → Gold) using dbt Core, Snowflake, and AWS S3. Implemented incremental materializations and SCD Type 2 snapshots to maintain point-in-time dimensional accuracy, accompanied by custom Jinja macros and schema assertion suites that reduced pipeline compute costs by **40%**.
+<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,bash,go&theme=dark" />
 
-<br>
+**Data Engineering & Big Data**
 
-## Certifications & Education
+<img src="https://skillicons.dev/icons?i=apache,kafka&theme=dark" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" width="48" title="Spark" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="48" title="Airflow" />
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/dbt.svg" width="46" title="dbt" />
+<img src="https://www.vectorlogo.zone/logos/snowflake/snowflake-icon.svg" width="48" title="Snowflake" />
+<img src="https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg" width="46" title="Databricks" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" width="48" title="Hadoop" />
+
+**Cloud & DevOps**
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,terraform,githubactions,linux,git&theme=dark" />
+
+**AI / ML & Frameworks**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="46" title="pandas" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48" title="NumPy" />
+<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="46" title="HuggingFace" />
+
+**Databases & Backend**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis,fastapi&theme=dark" />
+
+</div>
+
+<br/>
+
+---
+
+<!-- ====================== EDUCATION & CREDENTIALS ====================== -->
+## 🎓 Education & Credentials
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎓 Education</h3>
-      <b>M.S. in Computer Science</b><br/>
-      Stevens Institute of Technology · Hoboken, NJ<br/>
-      <b>GPA: 3.71 / 4.0</b><br/>
-      <sub>Coursework: Distributed Systems, Machine Learning, Cloud Computing, Advanced Algorithms</sub>
+      <h3>Stevens Institute of Technology</h3>
+      <b>M.S. in Computer Science</b> · Hoboken, NJ<br/>
+      <b>Sep 2024 – May 2026</b> · GPA: <b>3.71 / 4.0</b><br/>
+      <sub>Focus: Distributed Systems, Machine Learning, Cloud Computing, Advanced Algorithms</sub>
     </td>
     <td width="50%" valign="top">
-      <h3>🏅 Certification</h3>
+      <h3>Amazon Web Services</h3>
       <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/65361e9ef7814917a8444550bbac14dc">
-        <img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="95" align="right" alt="AWS Certified Data Engineer"/>
+        <img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="85" align="right" alt="AWS Certified Data Engineer" />
       </a>
       <b>AWS Certified Data Engineer – Associate</b><br/>
-      Amazon Web Services<br/>
-      <sub>Credential ID: 65361e9ef7814917a8444550bbac14dc</sub><br/>
-      <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/65361e9ef7814917a8444550bbac14dc"><b>Verify Credential »</b></a>
+      <sub>Active Credential: Mar 2026</sub><br/>
+      <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/65361e9ef7814917a8444550bbac14dc"><b>🔗 Verify Credential »</b></a>
     </td>
   </tr>
 </table>
 
-<br>
+<br/>
 
-## GitHub Analytics
+---
+
+<!-- ====================== GITHUB ACTIVITY ====================== -->
+## 📊 GitHub Activity
 
 <p align="center">
-  <img src="top-langs.svg" height="195" alt="Most Used Languages" />&nbsp;&nbsp;
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=ankitdhandharia&theme=tokyonight&hide_border=true" height="195" alt="Contribution Streak" />
+  <img src="https://streak-stats.demolab.com?user=ankitdhandharia&theme=github-dark-blue&hide_border=true&background=0D1117&ring=378ADD&fire=378ADD&currStreakLabel=378ADD" height="195" alt="Contribution Streak" />
 </p>
 
 <p align="center">
   <img src="https://gh-readme-activity-graph.vercel.app/graph?username=ankitdhandharia&theme=react-dark&hide_border=true&area=true" width="100%" alt="Activity Graph" />
 </p>
 
-<br>
+<br/>
+
+<!-- ====================== FOOTER ====================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0045A5,100:378ADD&height=120&section=footer" width="100%" />
+</p>
 
 <div align="center">
-  <i>"First make it work, then make it right, then make it fast." — Kent Beck</i>
-  <br><br>
+  <i>"In God we trust, all others must bring data." — W. Edwards Deming</i>
+  <br/><br/>
   <a href="https://ankitdhandharia.com"><b>ankitdhandharia.com</b></a>
 </div>
