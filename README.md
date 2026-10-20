@@ -250,8 +250,6 @@ Modular Retrieval-Augmented Generation system with dense embeddings and persiste
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0045A5,100:378ADD&height=120&section=footer" width="100%" />
 </p>
 
-<div align="center">
-  <i>"In God we trust, all others must bring data." — W. Edwards Deming</i>
-  <br/><br/>
+<p align="center">
   <a href="https://ankitdhandharia.com"><b>ankitdhandharia.com</b></a>
-</div>
+</p>
