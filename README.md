@@ -197,20 +197,29 @@ Modular Retrieval-Augmented Generation system with dense embeddings and persiste
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" align="center" valign="top">
+      <br/>
+      <img src="./assets/stevens-logo.svg" height="85" alt="Stevens Institute of Technology" />
+      <br/><br/>
       <h3>Stevens Institute of Technology</h3>
-      <b>M.S. in Computer Science</b> · Hoboken, NJ<br/>
-      <b>Sep 2024 – May 2026</b> · GPA: <b>3.71 / 4.0</b><br/>
-      <sub>Focus: Distributed Systems, Machine Learning, Cloud Computing, Advanced Algorithms</sub>
+      <b>M.S. in Computer Science</b><br/>
+      <sub>Hoboken, NJ · Sep 2024 – May 2026</sub><br/>
+      <p>GPA: <b>3.71 / 4.0</b></p>
+      <sub>Distributed Systems · Machine Learning · Cloud Computing · Advanced Algorithms</sub>
+      <br/><br/>
     </td>
-    <td width="50%" valign="top">
-      <h3>Amazon Web Services</h3>
+    <td width="50%" align="center" valign="top">
+      <br/>
       <a href="https://www.credly.com/badges/2d86b01c-3459-4bb4-ad39-4cc492678060">
-        <img src="https://images.credly.com/size/340x340/images/e5c85d7f-4e50-431e-b5af-fa9d9b0596e7/image.png" width="95" align="right" alt="AWS Certified Data Engineer – Associate" />
+        <img src="https://images.credly.com/size/340x340/images/e5c85d7f-4e50-431e-b5af-fa9d9b0596e7/image.png" height="85" alt="AWS Certified Data Engineer – Associate" />
       </a>
+      <br/><br/>
+      <h3>Amazon Web Services</h3>
       <b>AWS Certified Data Engineer – Associate</b><br/>
       <sub>Issued by Amazon Web Services Training &amp; Certification</sub><br/>
+      <p>Active Credential: <b>March 2026</b></p>
       <a href="https://www.credly.com/badges/2d86b01c-3459-4bb4-ad39-4cc492678060"><b>🔗 Verify on Credly »</b></a>
+      <br/><br/>
     </td>
   </tr>
 </table>
