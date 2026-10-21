@@ -133,7 +133,7 @@
           
           <!-- Stars pill -->
           <rect x="260" y="10" width="52" height="18" rx="4" fill="#21262d"/>
-          <text x="286" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#e3b341">★ 43.2k</text>
+          <text x="286" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#e3b341">★ 43.3k</text>
           
           <!-- Status pill -->
           <rect x="320" y="10" width="56" height="18" rx="4" fill="rgba(163, 113, 247, 0.15)" stroke="#a371f7" stroke-width="0.75"/>
